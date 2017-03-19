@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cus="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:background="@drawable/table_bg"
+        android:columnCount="3" >
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            cus:CCornerWhich="CTopLeft"
+            cus:CCornerRadius="0dp"
+            android:gravity="center"
+            android:text="1" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:gravity="center"
+            android:text="2" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            cus:CCornerWhich="CTopRight"
+            cus:CCornerRadius="0dp"
+            android:text="3" />
+
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="4" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6" />
+
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn9"
+            android:layout_rowWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CCornerWhich="CBottomLeft"
+            cus:CCornerRadius="0dp"
+            android:gravity="center"
+            android:text="退格" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btn0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            cus:CBackground="@drawable/keyboard2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+            android:id="@+id/btnX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cus:CBackground="@drawable/keyboard2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            cus:CCornerWhich="CBottomRight"
+            cus:CCornerRadius="0dp"
+            android:text="X" />
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>

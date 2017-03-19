@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kevin_zhuang.myapplication.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnTest" />
+
+    <TextView
+        android:id="@+id/tvShowInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etInput"
+        android:layout_marginTop="10dp" />
+
+
+    <!--<TableLayout-->
+        <!--android:layout_below="@id/tvShowInfo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:stretchColumns="0,1,2">-->
+
+
+    <!--<TableRow>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/btn_bg_top_left"-->
+            <!--android:text="1" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn2"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:text="2" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/btn_bg_top_right"-->
+            <!--android:text="3" />-->
+    <!--</TableRow>-->
+
+    <!--<TableRow>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn4"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="4" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn5"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="5" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn6"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="6" />-->
+    <!--</TableRow>-->
+
+    <!--<TableRow>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn7"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="7" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn8"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="8" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn9"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="9" />-->
+    <!--</TableRow>-->
+
+    <!--<TableRow>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnBack"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/btn_bg_bottom_left"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="退格" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn0"-->
+            <!--style="@style/btn_style"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="0" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnX"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/btn_bg_bottom_right"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="X" />-->
+    <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+</RelativeLayout>

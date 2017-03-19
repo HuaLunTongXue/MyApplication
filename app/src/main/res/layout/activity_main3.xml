@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/activity_main3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f96ab"
+    android:orientation="vertical"
+    tools:context="com.example.kevin_zhuang.myapplication.debug_package.Main3Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testOnclick"
+        android:background="@drawable/change_img_bg"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgTestBg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/change_img_bg"
+        />
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginRight="0dp"-->
+        <!--android:layout_marginBottom="0dp"-->
+        <!--android:background="@drawable/corner"-->
+        <!--&gt;-->
+<!---->
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/bg720x1208"-->
+            <!--/>-->
+    <Button
+        android:id="@+id/btnGetSpValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:onClick="btnClickDownVideo"
+        android:text="开始下载"
+        />
+
+
+    <!--</FrameLayout>-->
+
+    <TextView
+        android:id="@+id/tvShowInfoIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="20dp"-->
+    <!--android:background="#FFF"-->
+    <!--&gt;-->
+
+        <!--<com.example.kevin_zhuang.myapplication.custom_view.CornerView-->
+            <!--android:id="@+id/imageC"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--cu:src="@drawable/blue"-->
+            <!--cu:borderRadius="20dp"-->
+            <!--/>-->
+
+    <!--</FrameLayout>-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+    <com.example.kevin_zhuang.myapplication.custom_view.ImageTest
+        android:id="@+id/imageT"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </FrameLayout>
+    <Button
+        android:id="@+id/btnStartApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:text="跳转APP"
+        />
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp">-->
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp">-->
+
+            <!--<com.example.kevin_zhuang.myapplication.custom_view.CornerImage-->
+                <!--android:layout_width="match_parent"-->
+                <!--cu:CCornerRadius="30dp"-->
+                <!--cu:CBackground="#FF00FF"-->
+                <!--cu:CCornerWhich="CTopLeft"-->
+                <!--android:layout_height="100dp" />-->
+
+        <!--</FrameLayout>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp">-->
+
+            <!--<com.example.kevin_zhuang.myapplication.custom_view.CornerImage-->
+                <!--android:layout_width="match_parent"-->
+                <!--cu:CCornerRadius="30dp"-->
+                <!--cu:CBackground="#FF00FF"-->
+                <!--cu:CCornerWhich="CTopRight"-->
+                <!--android:layout_height="100dp" />-->
+
+        <!--</FrameLayout>-->
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp">-->
+
+            <!--<com.example.kevin_zhuang.myapplication.custom_view.CornerImage-->
+                <!--android:layout_width="match_parent"-->
+                <!--cu:CCornerRadius="30dp"-->
+                <!--cu:CBackground="#FF00FF"-->
+                <!--cu:CCornerWhich="CBottomRight"-->
+                <!--android:layout_height="100dp" />-->
+
+        <!--</FrameLayout>-->
+
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp">-->
+
+            <!--<com.example.kevin_zhuang.myapplication.custom_view.CornerImage-->
+                <!--android:layout_width="match_parent"-->
+                <!--cu:CCornerRadius="30dp"-->
+                <!--cu:CBackground="#FF00FF"-->
+                <!--cu:CCornerWhich="CBottomLeft"-->
+                <!--android:layout_height="100dp" />-->
+
+        <!--</FrameLayout>-->
+
+    <!--</FrameLayout>-->
+
+
+
+
+
+</LinearLayout>

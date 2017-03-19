@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.kevin_zhuang.myapplication.custom_view.InputTextView
+        android:id="@+id/inputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4"
+        >
+        <Button android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/btn_style2"
+            android:text="1"
+            />
+
+        <Button android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="2"
+            />
+
+        <Button android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="3"
+            />
+
+        <Button android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="4"
+            />
+
+        <Button android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="5"
+            />
+
+        <Button android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="6"
+            />
+
+        <Button android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="7"
+            />
+
+        <Button android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="8"
+            />
+
+        <Button android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="9"
+            />
+        <Button android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="退格"
+            />
+        <Button android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+        <Button android:id="@+id/btnX"
+            android:layout_width="wrap_content"
+            style="@style/btn_style2"
+            android:layout_height="wrap_content"
+            android:text="X"
+            />
+
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA000"
+    android:orientation="vertical">
+
+    <!--<com.example.kevin_zhuang.myapplication.custom_view.CustomView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--customview:borderRadius="20dp"-->
+    <!--customview:src="@drawable/icon"-->
+    <!--customview:type="round" />-->
+
+    <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="111"
+        customview:CBackground="@drawable/keyboard2"
+        customview:CCornerRadius="50dp"
+        customview:CCornerWhich="CTopLeft" />
+
+    <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="111"
+        customview:CBackground="@drawable/keyboard2"
+        customview:CCornerRadius="50dp"
+        customview:CCornerWhich="CTopRight" />
+
+    <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="111"
+        customview:CBackground="@drawable/keyboard2"
+        customview:CCornerRadius="50dp"
+        customview:CCornerWhich="CBottomLeft" />
+
+    <com.example.kevin_zhuang.myapplication.custom_view.CustomTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="111"
+        customview:CBackground="@drawable/keyboard2"
+        customview:CCornerRadius="50dp"
+        customview:CCornerWhich="CBottomRight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keyboard2"
+        android:text="111" />
+
+
+    <!--<com.example.kevin_zhuang.myapplication.custom_view.CustomView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--customview:src="@drawable/icon"-->
+    <!--customview:type="circle" />-->
+
+
+</LinearLayout>
